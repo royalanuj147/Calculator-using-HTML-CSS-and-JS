@@ -31,12 +31,21 @@ h1{
     border-radius: 18px;
     background-color: beige;
     box-shadow: 7px 5px 5px 1px rgba(0, 0, 0, 0.59);
+    
+    transition: all 0.4s linear 0s; 
+    
+}
+.calculater:hover{
+    transform:scale(1.1) ;
 }
 #orange{
-    color: orange;      
+    color: orange; 
+    transition: all 0.2s ease-out 0s;     
 }
 #orange:hover{
     background-color: #318285;
+    cursor: pointer;
+   
 }
 #orange:active{
     background-color:orange;
@@ -55,7 +64,7 @@ h1{
     color: white;
     border: none;
     border-radius: 35px;
-    transition: background-color 0.5 linear ;
+    transition: all 0.3s ease-out 0s ;
 }
 
 .row .button:hover{
@@ -63,7 +72,9 @@ h1{
     border-radius: 35px;
     color: rgb(224, 222, 222);
     color: black;
-    cursor: pointer; 
+    cursor: pointer;
+    /* font-size:34px;  */
+    transform: scale(1.1);
 }
 .row .button:active{
     background-color: #318285;
